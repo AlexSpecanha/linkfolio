@@ -1,0 +1,6 @@
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = 'https://vrmodclosvzoeoqveymc.supabase.co';
+const supabaseAnonKey ='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZybW9kY2xvc3Z6b2VvcXZleW1jIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM2MzQ1NzksImV4cCI6MjA1OTIxMDU3OX0.y8Bh9NO0kdW_6Qp-atgTPcdswK4hge3InNMm7xGpVxg';
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
